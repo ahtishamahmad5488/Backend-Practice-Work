@@ -1,0 +1,23 @@
+{
+  "name": "backend-work",
+  "version": "1.0.0",
+  "description": "Working On Backend Development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahtishamahmad5488/Backend-Practice-Work.git"
+  },
+  "author": "Ahtisham Ahmad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahtishamahmad5488/Backend-Practice-Work/issues"
+  },
+  "homepage": "https://github.com/ahtishamahmad5488/Backend-Practice-Work#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
