@@ -15,10 +15,10 @@ http
         res.end();
       });
     } else if (req.url === "/submit") {
-      res.writeHead(200, { "Content-Type": "text/html" });
-      res.write("<h1>Form Submitted Successfully</h1>");
-      res.write("<h2>Thank you for submitting the form!</h2>");
-      res.end();
+      let dataBody = [];
+      req.on("data", (chunk) => {
+        dataBody.push(chunk);
+      });
     } else {
       res.writeHead(404, { "Content-Type": "text/html" });
       res.write("<h1>404 Not Found</h1>");
